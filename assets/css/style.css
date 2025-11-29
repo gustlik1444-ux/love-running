@@ -95,3 +95,24 @@ main {
 footer {
   background-color: orange;
 }
+
+/* Media Queries for larger screens (768px and up) */
+@media screen and (min-width: 768px) {
+    nav {
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        display: block;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+            }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    }
+  
