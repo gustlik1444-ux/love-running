@@ -113,6 +113,13 @@ main {
 #cover-text h2, #cover-text h3 {
     color: #ffffff;
     }
+/* Meet-up Times section */
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    flex-wrap: wrap;
+    display: flex;
+}
+
 /* Footer */
 #social-networks {
     padding: 20px 0;
