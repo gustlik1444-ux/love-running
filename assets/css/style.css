@@ -165,6 +165,13 @@ main {
     color:#3a3a3a;
 }
 
+/* Media querie: large phones and small tablets (576px and up) */
+@media screen and (min-width: 576px) {
+#photos { 
+    column-count: 2;
+    column-gap: 0;
+}
+}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -262,11 +269,21 @@ margin: 20px auto;
     justify-content: center;
     align-items: center;
 }
+
+/* Gallery */
+#photos {
+    column-count: 3;
+}
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+    /* Gallery */
+#photos {
+    column-count: 4;
+}
 }
 
 @media screen and (min-width: 1200px) {
